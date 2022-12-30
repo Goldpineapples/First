@@ -1,0 +1,63 @@
+body {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-size: 45px;
+    color: pink;
+    transition: .5s;
+}
+
+h1:hover {
+    color:blue;
+
+}
+
+a {
+    color:blue;
+    transition: .5s;
+    margin: 5px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:hover {
+    color: pink;
+
+}
+
+button {
+    height: 100px;
+    width: 200px;
+    font-size: 18px;
+    background-color: purple;
+    color: white;
+    transition: .5s;
+}
+
+button:hover {
+    background-color: white;
+    color: purple;
+}
+
+div { 
+    margin: 20px;
+    margin-top: 50px;
+    background-color: aliceblue;
+    padding: 15px;
+}
+
+.Hyperlink-Container {
+    display: flex;
+    background-color: aqua;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+
+.button-container {
+    background-color: black;
+}
